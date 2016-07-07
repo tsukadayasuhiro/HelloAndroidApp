@@ -2,33 +2,28 @@ package jp.techacademy.yasuhiro.tsukada.myapplication;
 
 import android.util.Log;
 
-/**
- * Created by tsukadayasuhiro on 2016/07/06.
- */
- class Human extends Animal {
+    /**
+     * Created by tsukadayasuhiro on 2016/07/06.
+     */
 
-    static String to_jp = "犬";
-
-
-    String name;  // 名前
-    int age;    // 年齢
+    class Human extends MainActivity implements Thinkable {
 
 
-    public Human(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+        int age;
+
+        static String to_jp = "私";
+
+        public Human(String name, int age) {
 
 
-    public void say() {
+        }
+
+        public void think() {
+            Log.d("javatest", "");
+        }
 
 
+        }
 
 
-
-
-
-
-    }
-}
 

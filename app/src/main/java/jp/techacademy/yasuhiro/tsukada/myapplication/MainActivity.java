@@ -286,12 +286,23 @@ public class MainActivity extends AppCompatActivity {
       // dog.move();
 
 
-       Human dog = new Human ("塚田　康大",14);
 
 
-       dog.say();  // ポチが吠えます（ログ出力）
-       Log.d("javatest", "私の名前は" + dog.name + "です。");
-       Log.d("javatest", "年は" + dog.age + "歳です。");
+
+
+
+
+       Human dog = new Human("私",14);
+
+
+
+
+       dog.think();
+       Log.d("javatest", "私は" + "ゲーム" + "について考える。");
+
+
+
+
 
 
 
