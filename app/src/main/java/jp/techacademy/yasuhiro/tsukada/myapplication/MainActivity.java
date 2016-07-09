@@ -7,33 +7,33 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-   @Override
-   protected void onCreate(Bundle savedInstanceState) {
-       super.onCreate(savedInstanceState);
-       setContentView(R.layout.activity_main);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-    //コメント（無視されるよ）
+        //コメント（無視されるよ）
         /*複数
         行にわたるコメントが
        　書ける
          */
 
 
-    //整数型の変数をnumという名前で作成して、１０を代入する。
-    // int num=10;
-    //  Log.d("javatest",String.valueOf(num));
+        //整数型の変数をnumという名前で作成して、１０を代入する。
+        // int num=10;
+        //  Log.d("javatest",String.valueOf(num));
 
-    //numに５０を代入する。
-    // num =50;
-    // Log.d("javatest", String.valueOf(num));
+        //numに５０を代入する。
+        // num =50;
+        // Log.d("javatest", String.valueOf(num));
 
 
-    // int num1 =10+20;
+        // int num1 =10+20;
 
-    //  Log.d("javatest", String.valueOf(num1));
+        //  Log.d("javatest", String.valueOf(num1));
 
-    //int num2 =20;
-    //  num2++;
+        //int num2 =20;
+        //  num2++;
 
 
         /*
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
 		A % B   A を B で割った余り*/
 
 
-    //final int MAX_NUM = 100000;
-    //String.valueOf関数は、Stringクラスの関数で数値型などの変数を文字列型として返します
+        //final int MAX_NUM = 100000;
+        //String.valueOf関数は、Stringクラスの関数で数値型などの変数を文字列型として返します
 
 
         /*	 演算式	              意味
@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
         }*/
 
 
-    // データ型[] 配列名 = new データ型[要素数];
+        // データ型[] 配列名 = new データ型[要素数];
 
        /* int[] points = new int [5];
         points[0] = 10;
@@ -212,8 +212,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("javatest",String.valueOf(sum));*/
 
 
-
-    //ここでfirstやlastのこと 引数（ひきすう） と呼びますので覚えておきましょう。
+        //ここでfirstやlastのこと 引数（ひきすう） と呼びますので覚えておきましょう。
 
 
 
@@ -281,92 +280,21 @@ public class MainActivity extends AppCompatActivity {
        Log.d("javatest", "犬の年齢は" + bigdog.age + "歳です。");*/
 
 
-      // Dog dog = new Dog("ポチ", 3);     // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
+        // Dog dog = new Dog("ポチ", 3);     // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
 
-      // dog.move();
+        // dog.move();
 
 
 
 
+        Human animal = new Human("塚田　康大", 7,"ゲーム");
 
 
+        animal.think();
+        animal.say();
 
 
-       Human dog = new Human("私",14);
 
-
-
-
-       dog.think();
-       Log.d("javatest", "私は" + "ゲーム" + "について考える。");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   }
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

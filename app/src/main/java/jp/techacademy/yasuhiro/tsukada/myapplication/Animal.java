@@ -6,6 +6,10 @@ package jp.techacademy.yasuhiro.tsukada.myapplication;
 abstract class Animal {
 
 
+    String name;
+    int age;
+
+    abstract public void think();
 
 }
 
